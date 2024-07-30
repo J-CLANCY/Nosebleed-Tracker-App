@@ -4,6 +4,8 @@ This repository contains the Android Studio project for a nosebleed tracker app 
 
 The first version of this tracker simply displayed a guess that the nosebleed would likely stop soon if the inter-drip time was greater than or equal to 5 seconds. I think shortly after I tried it a couple of times, the nosebleeds stopped, and I got bored. At some stage I'll come back and implement a proper time-series forecasting algorithm.
 
+<TO-DO - Insert screenshots of app >
+
 ## Project Structure
 
 ```
