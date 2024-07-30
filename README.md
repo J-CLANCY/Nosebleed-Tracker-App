@@ -5,12 +5,14 @@ This repository contains the Android Studio project for a nosebleed tracker app 
 ## Project Structure
 
 ```
-├── ""docs"" => Contains documentation for this project.  
-│    ├── ""images"" => Pictures of the physical breadboard verison of this processor
-│    ├── ""modules"" => Contains ODT documents detailing each module in the processor.
-│    ├── ""schematics"" => Functional diagrams/schematics for the processor and its modules. 
-│    ├── ""Specification.odt/.odt.docx"" => Document details the specifications for this processor.  
-│    ├── ""Notes.odt"" => Minor document contains a couple of notes that I forgot why I wrote, but am too scared to delete. 
-├── ""rtl"" => Contains the Verilog source code for the processor
-├── ""verify"" => Contains a series of testbenches for each of the modules and the processor.
+├── "".gradle"" => Contains gradle configuration for the app.
+├── "".idea"" => Contains IDE configuration for this project.  
+├── ""app"" => Contains the source code for the app.
+├── ""gradle"" => Contains the gradle wrapper for the app.
+├── ""build.gradle"" => Top level build configuration file for the gradle.
+├── ""gradle.properties"" => Project-wide gradle configuration.
+├── ""gradlew"" => Gradle start up script for UniX.
+├── ""gradew.bat"" => Gradle startup script for Windows.
+├── ""local.properties" => Automatically generated file.
+├── ""settings.gradle" => User-defined global variables for gradle.
 ```
