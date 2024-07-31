@@ -9,8 +9,6 @@ The first version of this tracker simply displayed a guess that the nosebleed wo
 ## Project Structure
 
 ```
-├── "".gradle"" => Contains gradle configuration for the app.
-├── "".idea"" => Contains IDE configuration for this project.  
 ├── ""app"" => Contains the source code for the app.
 ├── ""gradle"" => Contains the gradle wrapper for the app.
 ├── ""build.gradle"" => Top level build configuration file for the gradle.
